@@ -1,6 +1,5 @@
 import '../styles/globals.css';
 
-import { createTheme, ThemeProvider } from '@mui/material/styles';
 import type { AppProps } from 'next/app';
 import { Inter } from 'next/font/google';
 import Head from 'next/head';
@@ -12,17 +11,6 @@ const inter = Inter({
 });
 
 function MyApp({ Component, pageProps }: AppProps) {
-  const muiTheme = createTheme({
-    palette: {
-      primary: {
-        main: '#573dff',
-      },
-    },
-    typography: {
-      fontFamily: 'inherit',
-    },
-  });
-
   return (
     <>
       <Head>
@@ -33,11 +21,9 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
-      <ThemeProvider theme={muiTheme}>
-        <div className={inter.variable + ' h-full text-haiti'}>
-          <Component {...pageProps} />
-        </div>
-      </ThemeProvider>
+      <div className={inter.variable + ' h-full text-haiti'}>
+        <Component {...pageProps} />
+      </div>
     </>
   );
 }

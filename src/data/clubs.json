@@ -1,0 +1,22 @@
+[
+  {
+    "id": "W01t_tcbaFkzMT9HzRcG",
+    "name": "Theta Tau (Alpha) UTD Fraternity",
+    "description": "The purpose of this fraternity shall be to develop and maintain a high standard of professional interest among its members and to unite them in a strong bond of fraternal fellowship by engaging its members in career-enriching projects and industry connections. Our mission is to provide an affordable professional Greek life where students can be part of a brotherhood that provides career-building, and network opportunities.",
+    "image": "/logoIcon.png",
+    "tags": ["Greek", "Academic Interests", "Educational/Departmental"],
+    "approved": "approved",
+    "profileImage": "https://jupiter.nlmc.workers.dev/W01t_tcbaFkzMT9HzRcG-profile.png",
+    "soc": false
+  },
+  {
+    "id": "654d361fbfe4308bcdfc4145",
+    "name": "Nebula Labs",
+    "description": "Nebula Labs is an interdisciplinary community consisting of developers and designers that build tools for UT Dallas students like a degree planner and a tool to visualize professor data.\n\nOur purpose is to:\n* Create and maintain an interdisciplinary community of learners\n* Improve the lives of others by providing a platform that allows students to build and maintain tools for the community\n* Provide students opportunities to serve the UT Dallas community through experiential learning\n* Host technical and design workshops, teach-ins, and other events for UT Dallas students\n\nOur current projects in development are:\n* Planner - An interactive degree planner\n* Survival Guide - A wiki filled with information about life at UT Dallas\n* Trends - A website that displays course grades, evals, and more\n* Jupiter - A portal for everything related to student organizations\n* API/Platform - The backend that supports all of our projects\n\nIf building real, impactful projects for others appeals to you, please check out our website (https://about.utdnebula.com/) and join our Discord (https://discord.gg/tcpcnfxmeQ)",
+    "image": "/logoIcon.png",
+    "tags": ["Academic Interests", "Computing"],
+    "approved": "approved",
+    "profileImage": null,
+    "soc": false
+  }
+]

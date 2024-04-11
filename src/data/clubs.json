@@ -7,6 +7,7 @@
     "tags": ["Greek", "Academic Interests", "Educational/Departmental"],
     "approved": "approved",
     "profileImage": "https://jupiter.nlmc.workers.dev/W01t_tcbaFkzMT9HzRcG-profile.png",
+    "url": "https://www.ttautd.com/",
     "soc": false
   },
   {
@@ -17,6 +18,7 @@
     "tags": ["Academic Interests", "Computing"],
     "approved": "approved",
     "profileImage": null,
+    "url": "https://www.utdnebula.com/",
     "soc": false
   },
   {
@@ -27,6 +29,7 @@
     "tags": ["Academic Interests", "Computing"],
     "approved": "approved",
     "profileImage": "/WWC.jpg",
+    "url": "https://www.utdwwc.com/",
     "soc": false
   }
 ]

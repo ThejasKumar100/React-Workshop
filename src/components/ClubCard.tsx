@@ -68,11 +68,21 @@ const ClubCard = (props: ClubCardProps) => {
         <p className="text-base text-slate-600 md:text-sm">{desc}</p>
       </div>
       <div className="m-5 mt-auto flex flex-row space-x-2">
-        <button onClick={()=>{window.open(club.url, "_blank")}} className="bg-cornflower-500 text-xs font-extrabold text-white transition-colors hover:bg-royal mr-2 rounded-2xl px-4 py-2">
+        <button
+          onClick={() => {
+            window.open(club.url, '_blank');
+          }}
+          className="bg-cornflower-500 text-xs font-extrabold text-white transition-colors hover:bg-royal mr-2 rounded-2xl px-4 py-2"
+        >
           Join
         </button>
-        <button onClick={()=>{window.open(`https://jupiter.utdnebula.com/directory/${club.id}`, "_blank")}} className="rounded-2xl bg-cornflower-50 px-4 py-2 text-xs font-extrabold text-blue-primary transition-colors hover:bg-cornflower-100">
-        Learn More
+        <button
+          onClick={() => {
+            window.open(`https://jupiter.utdnebula.com/directory/${club.id}`, '_blank');
+          }}
+          className="rounded-2xl bg-cornflower-50 px-4 py-2 text-xs font-extrabold text-blue-primary transition-colors hover:bg-cornflower-100"
+        >
+          Learn More
         </button>
         {/* <Link
           href={`https://jupiter.utdnebula.com/directory/${club.id}`}

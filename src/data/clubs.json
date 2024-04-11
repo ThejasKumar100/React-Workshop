@@ -7,6 +7,7 @@
     "tags": ["Greek", "Academic Interests", "Educational/Departmental"],
     "approved": "approved",
     "profileImage": "https://jupiter.nlmc.workers.dev/W01t_tcbaFkzMT9HzRcG-profile.png",
+    "url": "https://www.ttautd.com/",
     "soc": false
   },
   {
@@ -17,6 +18,18 @@
     "tags": ["Academic Interests", "Computing"],
     "approved": "approved",
     "profileImage": null,
+    "url": "https://www.utdnebula.com/",
+    "soc": false
+  },
+  {
+    "id": "654d3640bfe4308bcdfc423e",
+    "name": "Women Who Compute",
+    "description": "Women Who Compute is a community for women pursuing careers in engineering and computer science at The University of Texas at Dallas. We aim to provide opportunities for mentorship, personal and professional development, and social bonding with women of paralleled interests in computing. Representing one of the largest women-advocating organizations on campus, Women Who Compute strives to cultivate community, provide mentorship and support, and encourage career exploration.",
+    "image": "/logoIcon.png",
+    "tags": ["Academic Interests", "Computing"],
+    "approved": "approved",
+    "profileImage": "/WWC.jpg",
+    "url": "https://www.utdwwc.com/",
     "soc": false
   }
 ]

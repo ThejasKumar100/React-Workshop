@@ -48,7 +48,7 @@ const ClubCard = (props: ClubCardProps) => {
   const name = club.name.length > 20 ? club.name.slice(0, 30) + '...' : club.name;
 
   return (
-    <div className="flex h-full min-h-[400px] min-w-[300px] max-w-xs flex-col justify-between rounded-lg bg-white shadow-lg md:min-h-[600px]">
+    <div className="justify-self-center transition-all flex h-full min-h-[400px] min-w-[300px] max-w-xs flex-col self-center justify-between rounded-lg bg-white shadow-lg md:min-h-[600px] cardCont">
       <div className="relative h-48 overflow-hidden rounded-t-lg sm:h-56 md:h-64 lg:h-72">
         <img
           src={club.profileImage ? club.profileImage : club.image}

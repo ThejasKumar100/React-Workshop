@@ -12,9 +12,10 @@ const Home: NextPage = () => {
       <Head>
         <title>React Workshop</title>
       </Head>
-      <div className="grid w-full auto-rows-fr grid-cols-[repeat(auto-fill,320px)] justify-center gap-16 p-4">
+      <div className="grid w-full auto-rows-fr grid-cols-3 justify-center align-center gap-16 p-4">
         <ClubCard id="654d361fbfe4308bcdfc4145" />
         <ClubCard id="W01t_tcbaFkzMT9HzRcG" />
+        <ClubCard id="654d3640bfe4308bcdfc423e" />
       </div>
     </>
   );

@@ -21,7 +21,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
-      <div className={inter.variable + ' h-full text-haiti'}>
+      <div className={inter.variable + ' min-h-full text-haiti'}>
         <Component {...pageProps} />
       </div>
     </>

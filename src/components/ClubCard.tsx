@@ -27,16 +27,7 @@ const ClubCard = (props: ClubCardProps) => {
       },
     })
       .then((response) => response.json())
-      .then((data) => {
-        if (data.message !== 'success') {
-          throw new Error(data.message);
-          return;
-        }
-        setClub(data.data);
-      })
-      .catch((error) => {
-        console.error('Club Data', error);
-      });
+      .then((data) => setClub(data.data));
   }, []);
 
   if (typeof club === 'undefined') {

@@ -21,12 +21,7 @@ const ClubCard = (props: ClubCardProps) => {
   const [club, setClub] = useState<ClubData | undefined>();
 
   useEffect(() => {
-    fetch('/api/clubs?id=' + encodeURIComponent(props.id), {
-      method: 'GET',
-      headers: {
-        Accept: 'application/json',
-      },
-    })
+    fetch('/api/clubs?id=' + encodeURIComponent(props.id))
       .then((response) => response.json())
       .then((data) => setClub(data.data));
   }, []);
